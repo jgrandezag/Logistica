@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>CL-Gas</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600" rel="stylesheet">
+		<link rel="icon" href="assets/img/taller.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/vendor.bundle.css">
+  <link rel="stylesheet" href="assets/css/app.bundle.css">
+  <link rel="stylesheet" href="assets/css/theme-a.css">
+</head>
+
+<body id="auth_wrapper" style="background-image: url('assets/img/carro-login.jpg');background-size:100%; background-attachment: fixed; height: 100%s;background-repeat: no-repeat; width: 100%;">
+  
+  <div id="login_wrapper">
+
+    <div id="login_content">
+			<div class="logo">
+				<img src="assets/img/taller.png" alt="logo" class="logo-img">
+			</div>
+      <h1 class="login-title">
+        Ingrese su Cuenta
+      </h1>
+      <div class="login-body">
+        <form>
+          <div class="form-group label-floating is-empty">
+            <label class="control-label">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group label-floating is-empty">
+            <label class="control-label">Password</label>
+            <input type="password" class="form-control">
+          </div>
+          <a href="javascript:void(0)" class="forgot-pass pull-right">¿Olvido su contraseña?</a>
+          <div class="checkbox inline-block">
+            <label>
+              <input type="checkbox" class="checkbox-inline" value="">
+              Recordar cuenta
+            </label>
+          </div>
+          <a href="index.html" class="btn btn-info btn-block m-t-40">Ingresar</a>
+          <div class="login-options">
+            <span>OR</span>
+            <hr />
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button class="btn btn-facebook btn-block"><i class="zmdi zmdi-facebook"></i> Ingresar con Facebook</button>
+            </div>
+            <div class="col-xs-12">
+              <button class="btn btn-google btn-block"><i class="zmdi zmdi-google-plus"></i> Ingresar con Google</button>
+            </div>
+						<div class="col-xs-12">
+							<button class="btn btn-twitter btn-block"><i class="zmdi zmdi-twitter"></i> Ingresar con Twitter</button>
+						</div>
+          </div>
+        </form>
+      </div>
+      <div class="login-footer p-15">
+        <p>
+          ¿No posee ninguna cuenta? <a href="javascript:void(0)" data-toggle="register">Crear una cuenta</a>
+        </p>
+      </div>
+      <div id="register_wrapper">
+        <ul class="card-actions icons right-top">
+          <li>
+            <a href="javascript:void(0)" data-toggle="register">
+              <i class="zmdi zmdi-close"></i>
+            </a>
+          </li>
+        </ul>
+				<div class="logo">
+					<img src="assets/img/taller.png" alt="logo" class="logo-img">
+				</div>
+        <h1 class="login-title">
+         Crear una Cuenta
+        </h1>
+        <div class="login-body">
+					<div class="col-xs-12">
+						<button class="btn btn-facebook btn-block"><i class="zmdi zmdi-facebook"></i> Ingresar con Facebook</button>
+					</div>
+					<div class="col-xs-12">
+						<button class="btn btn-google btn-block"><i class="zmdi zmdi-google-plus"></i> Ingresar con Google</button>
+					</div>
+					<div class="col-xs-12">
+						<button class="btn btn-twitter btn-block"><i class="zmdi zmdi-twitter"></i> Ingresar con Twitter</button>
+					</div>
+
+          <form class="clear-both">
+						<h2 class="text-center p-t-20">
+              Registrar Datos
+						</h2>
+            <div class="form-group label-floating is-empty">
+              <label class="control-label">Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group label-floating is-empty">
+              <label class="control-label">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group label-floating is-empty">
+              <label class="control-label">Password</label>
+              <input type="password" class="form-control">
+            </div>
+            <div class="form-group label-floating is-empty">
+              <label class="control-label">Confirm Password</label>
+              <input type="password" class="form-control">
+            </div>
+            <div class="checkbox inline-block">
+              <label>
+                <input type="checkbox" class="checkbox-inline" value="">
+                I agree to the <a href="javascript:void(0)">terms of services</a>
+              </label>
+            </div>
+            <a href="login.html" onclick="alert('Usuario Creado')" onmouseup="window.location='login.html'" class="btn btn-info btn-block m-t-40">Crear mi cuenta</a>
+          </form>
+        </div>
+        <div class="login-footer p-15">
+          <p>
+            ¿Posee una cuenta? <a href="login.html" data-toggle="register">Ingresar</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/vendor.bundle.js"></script>
+  <script src="assets/js/app.bundle.js"></script>
+</body>
+</html>

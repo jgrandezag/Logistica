@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>CL-Gas</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600" rel="stylesheet">
+  <link rel="icon" href="assets/img/taller.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/vendor.bundle.css">
+	<link rel="stylesheet" href="assets/css/app.bundle.css">
+	<link rel="stylesheet" href="assets/css/theme-a.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css">
+</head>
+
+<body>
+	<div id="app_wrapper">
+		<header id="app_topnavbar-wrapper">
+			<nav role="navigation" class="navbar topnavbar">
+				<div class="nav-wrapper">
+					<div id="logo_wrapper" class="nav navbar-nav">
+						<ul>
+							<li class="logo-icon">
+								<a href="index.html">
+									<div class="logo">
+										<img src="assets/img/taller.png" alt="Logo">
+									</div>
+									<h1 class="brand-text">CL-GAS</h1>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="nav navbar-nav left-menu ">
+						<li class="menu-icon">
+							<a href="javascript:void(0)" role="button" data-toggle-state="app_sidebar-menu-collapsed" data-key="leftSideBar">
+								<i class="mdi mdi-backburger"></i>
+							</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav left-menu">
+						<li>
+							<a href="javascript:void(0)" class="nav-link" data-toggle-profile="profile-open">
+								<i class="zmdi zmdi-account"></i>
+							</a>
+						</li>
+						
+						
+					</ul>
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							<a href="javascript:void(0)" data-navsearch-open>
+								<i class="zmdi zmdi-search"></i>
+							</a>
+						</li>
+						
+						
+						<li class="dropdown hidden-xs hidden-sm">
+							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
+								<i class="zmdi zmdi-invert-colors"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-lg-menu dropdown-menu-right dropdown-alt">
+								<li class="dropdown-menu-header">
+									<h5>ELIJA SU COLOR FAVORITO</h5>
+								</li>
+								<li>
+									<div class="color-container">
+										<div class="row">
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-a.css">
+														<input type="radio" name="setting-theme" checked="checked">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-a"></span>
+															<span class="color bg-shade-theme-a"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-b.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-b"></span>
+															<span class="color bg-shade-theme-b"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-c.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-c"></span>
+															<span class="color bg-shade-theme-c"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-d.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-d"></span>
+															<span class="color bg-shade-theme-d"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="row m-t-20">
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-e.css">
+														<input type="radio" name="setting-theme" checked="checked">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-e"></span>
+															<span class="color bg-shade-theme-e"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-f.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-f"></span>
+															<span class="color bg-shade-theme-f"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-g.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-g"></span>
+															<span class="color bg-shade-theme-g"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-h.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-h"></span>
+															<span class="color bg-shade-theme-h"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<form role="search" action="" class="navbar-form" id="navbar_form">
+					<div class="form-group">
+						<input type="text" placeholder="Search and press enter..." class="form-control" id="navbar_search" autocomplete="off">
+						<i data-navsearch-close class="zmdi zmdi-close close-search"></i>
+					</div>
+					<button type="submit" class="hidden btn btn-default">Submit</button>
+				</form>
+			</nav>
+		</header>
+		<aside id="app_sidebar-left">
+			<nav id="app_main-menu-wrapper" class="scrollbar">
+				<div class="sidebar-inner sidebar-push">
+					<div class="card profile-menu" id="profile-menu">
+						<header class="card-heading card-img alt-heading">
+							<div class="profile">
+								<header class="card-heading card-background" id="card_img_02">
+									<img src="assets/img/profiles/18.jpg" alt="" class="img-circle max-w-75 mCS_img_loaded">
+								</header>
+								<a href="javascript:void(0)" class="info" data-profile="open-menu"><span>admin@CLgas.pe</span></a>
+							</div>
+						</header>
+						<ul class="submenu">
+							<li>
+								<a href="page-profile.html"><i class="zmdi zmdi-account"></i> Perfil</a>
+							</li>
+							
+							<li>
+								<a href="javascript:void(0)"><i class="zmdi zmdi-settings"></i> Opciones</a>
+							</li>
+							<li>
+								<a href="login.html"><i class="zmdi zmdi-sign-in"></i> Sign Out</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="sidebar-header">Menù Principal</li>
+						<li class="active"><a href="index.html"><i class="zmdi zmdi-view-dashboard"></i>Menu Principal</a></li>
+						<li ><a href="Registro_Producto.html"><i class="zmdi zmdi-widgets"></i>Registro de Productos</a></li>
+						
+						<li ><a href="Inventario.html"><i class="zmdi zmdi-view-headline"></i>Inventario</a></li>
+						<li ><a href="Reporte.html"><i class="fas fa-chart-line"></i>Reportes</a></li>
+						
+							
+							<li><a href="ayuda.html"><i class="zmdi zmdi-info"></i>Ayuda</a></li>
+						</ul>
+					</div>
+				</nav>
+			</aside>
+			<section id="content_outer_wrapper">
+					<div id="content_wrapper" class="card-overlay">
+						<div id="header_wrapper" class="header-lg overlay header-img">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-12">
+										<header id="header">
+											<!-- Optional Page Title-->
+											
+										</header>
+									</div>
+								</div>
+							</div>
+						</div>
+							<div id="content" class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="card" id="contact_us_wrapper">
+											<div class="card-body">
+												<div class="row">
+													<div class="col-sm-6">
+														<header>
+															<h2 class="card-title m-t-5">Ayuda</h2>
+															<p>
+																Nosotros escucharemos cualquier duda que usted posea.
+															</p>
+														</header>
+														<form>
+															<div class="form-group label-floating is-empty">
+																<label class="control-label">Nombre Completo</label>
+																<input type="text" class="form-control">
+															</div>
+															<div class="form-group label-floating is-empty">
+																<label class="control-label">Email</label>
+																<input type="email" class="form-control">
+															</div>
+															<div class="form-group label-floating is-empty">
+																<label for="textArea" class="control-label">Texto</label>
+																<textarea class="form-control" rows="3" id="textArea"></textarea>
+															</div>
+															<div class="form-group text-right">
+																<button class="btn btn-info">Enviar</button>
+															</div>
+														</form>
+													</div>
+													<div class="col-sm-6" id="info_right">
+														<div id="contact_info">
+															<header class="m-b-50">
+																<h2 class="card-title">Información de Contacto</h2>
+															</header>
+															<ul class="contact-list">
+																<li>
+																	<i class="zmdi zmdi-pin"></i> Carabaylo
+																</li>
+																<li>
+																	<i class="zmdi zmdi-phone"></i> Celular: +51 970 133 761
+																</li>
+																<li>
+																	<i class="zmdi zmdi-email"></i>
+																	<a href="mailto:contact@materiallab.pro">admin@CLgas.pe</a>
+																</li>
+															</ul>
+															<ul class="social">
+																<li>
+																	<button class="btn btn-fab btn-fab-sm btn-twitter"><i class="zmdi zmdi-twitter"></i></button>
+																</li>
+																<li>
+																	<button class="btn btn-fab btn-fab-sm btn-facebook"><i class="zmdi zmdi-facebook"></i></button>
+																</li>
+																<li>
+																	<button class="btn btn-fab btn-fab-sm btn-dribbble"><i class="zmdi zmdi-dribbble"></i></button>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<section id="chat_compose_wrapper">
+							<div class="tippy-top">
+								<div class="recipient">Allison Grayce</div>
+								<ul class="card-actions icons  right-top">
+									<li>
+										<a href="javascript:void(0)">
+											<i class="zmdi zmdi-videocam"></i>
+										</a>
+									</li>
+									<li class="dropdown">
+										<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
+											<i class="zmdi zmdi-more-vert"></i>
+										</a>
+										<ul class="dropdown-menu btn-primary dropdown-menu-right">
+											<li>
+												<a href="javascript:void(0)">Option One</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Option Two</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Option Three</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0)" data-chat="close">
+											<i class="zmdi zmdi-close"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class='chat-wrapper scrollbar'>
+								<div class='chat-message scrollbar'>
+									<div class='chat-message chat-message-recipient'>
+										<img class='chat-image chat-image-default' src='assets/img/profiles/05.jpg' />
+										<div class='chat-message-wrapper'>
+											<div class='chat-message-content'>
+												<p>Hey Mike, we have funding for our new project!</p>
+											</div>
+											<div class='chat-details'>
+												<span class='today small'></span>
+											</div>
+										</div>
+									</div>
+									<div class='chat-message chat-message-sender'>
+										<img class='chat-image chat-image-default' src='assets/img/profiles/02.jpg' />
+										<div class='chat-message-wrapper '>
+											<div class='chat-message-content'>
+												<p>Awesome! Photo booth banh mi pitchfork kickstarter whatever, prism godard ethical 90's cray selvage.</p>
+											</div>
+											<div class='chat-details'>
+												<span class='today small'></span>
+											</div>
+										</div>
+									</div>
+									<div class='chat-message chat-message-recipient'>
+										<img class='chat-image chat-image-default' src='assets/img/profiles/05.jpg' />
+										<div class='chat-message-wrapper'>
+											<div class='chat-message-content'>
+												<p> Artisan glossier vaporware meditation paleo humblebrag forage small batch.</p>
+											</div>
+											<div class='chat-details'>
+												<span class='today small'></span>
+											</div>
+										</div>
+									</div>
+									<div class='chat-message chat-message-sender'>
+										<img class='chat-image chat-image-default' src='assets/img/profiles/02.jpg' />
+										<div class='chat-message-wrapper'>
+											<div class='chat-message-content'>
+												<p>Bushwick letterpress vegan craft beer dreamcatcher kickstarter.</p>
+											</div>
+											<div class='chat-details'>
+												<span class='today small'></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<footer id="compose-footer">
+								<form class="form-horizontal compose-form">
+									<ul class="card-actions icons left-bottom">
+										<li>
+											<a href="javascript:void(0)">
+												<i class="zmdi zmdi-attachment-alt"></i>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">
+												<i class="zmdi zmdi-mood"></i>
+											</a>
+										</li>
+									</ul>
+									<div class="form-group m-10 p-l-75 is-empty">
+										<div class="input-group">
+											<label class="sr-only">Leave a comment...</label>
+											<input type="text" class="form-control form-rounded input-lightGray" placeholder="Leave a comment..">
+											<span class="input-group-btn">
+												<button type="button" class="btn btn-blue btn-fab  btn-fab-sm">
+													<i class="zmdi zmdi-mail-send"></i>
+												</button>
+											</span>
+										</div>
+									</div>
+								</form>
+							</footer>
+						</section>
+					</div>
+					<footer id="footer_wrapper">
+							<div class="footer-content">
+								<div class="row copy-wrapper">
+								  <div class="col-xs-12">
+									<p class="copy">&copy; Copyright <time class="year"></time> CL Gas - All Rights Reserved</p>
+								  </div>
+								</div>
+							  </div>
+					</footer>
+			</section>s
+			
+		<!-- MODALS =============================================-->
+		
+		<div class="modal fade" id="newContactModal" tabindex="-1" role="dialog" aria-labelledby="newContactModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<ul class="card-actions icons right-top">
+							<li>
+								<a href="javascript:void(0)" class="text-white" data-dismiss="modal" aria-label="Close">
+									<i class="zmdi zmdi-close"></i>
+								</a>
+							</li>
+						</ul>
+						<h4 class="modal-title">New Contact</h4>
+						
+					<div class="modal-body">
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+								<label class="control-label">Full Name</label>
+								<input type="text" class="form-control" id="add_name" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+								<label class="control-label">Email Address</label>
+								<input type="email" class="form-control" id="add_email" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-phone"></i></span>
+								<label class="control-label">Phone Number</label>
+								<input type="text" class="form-control" id="add_phone" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating is-empty">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-pin"></i></span>
+								<label class="control-label">Address</label>
+								<input type="text" class="form-control" id="add_address">
+							</div>
+						</div>
+						<div class="form-group label-floating is-empty">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="mdi mdi-note-text"></i></span>
+								<label for="textArea" class="control-label">Notes</label>
+								<textarea class="form-control" rows="3" id="textArea" id="add_notes"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default btn-flat pull-left">Delete</button>
+						<button class="btn btn-primary btn-flat" data-dismiss="modal" aria-label="Close">Cancel</button>
+						<button class="btn btn-primary">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MODALS =============================================-->
+		<script src="assets/js/vendor.bundle.js"></script>
+		<script src="assets/js/app.bundle.js"></script>
+	</body>
+	
+	</html>

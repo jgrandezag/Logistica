@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>CL-Gas</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600" rel="stylesheet">
+  <link rel="icon" href="assets/img/taller.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/vendor.bundle.css">
+	<link rel="stylesheet" href="assets/css/app.bundle.css">
+	<link rel="stylesheet" href="assets/css/theme-a.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css">
+</head>
+
+<body>
+	<div id="app_wrapper">
+		<header id="app_topnavbar-wrapper">
+			<nav role="navigation" class="navbar topnavbar">
+				<div class="nav-wrapper">
+					<div id="logo_wrapper" class="nav navbar-nav">
+						<ul>
+							<li class="logo-icon">
+								<a href="index.html">
+									<div class="logo">
+										<img src="assets/img/taller.png" alt="Logo">
+									</div>
+									<h1 class="brand-text">CL-GAS</h1>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="nav navbar-nav left-menu ">
+						<li class="menu-icon">
+							<a href="javascript:void(0)" role="button" data-toggle-state="app_sidebar-menu-collapsed" data-key="leftSideBar">
+								<i class="mdi mdi-backburger"></i>
+							</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav left-menu">
+						<li>
+							<a href="javascript:void(0)" class="nav-link" data-toggle-profile="profile-open">
+								<i class="zmdi zmdi-account"></i>
+							</a>
+						</li>
+						
+						
+					</ul>
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							<a href="javascript:void(0)" data-navsearch-open>
+								<i class="zmdi zmdi-search"></i>
+							</a>
+						</li>
+						
+						
+						<li class="dropdown hidden-xs hidden-sm">
+							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
+								<i class="zmdi zmdi-invert-colors"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-lg-menu dropdown-menu-right dropdown-alt">
+								<li class="dropdown-menu-header">
+									<h5>ELIJA SU COLOR FAVORITO</h5>
+								</li>
+								<li>
+									<div class="color-container">
+										<div class="row">
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-a.css">
+														<input type="radio" name="setting-theme" checked="checked">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-a"></span>
+															<span class="color bg-shade-theme-a"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-b.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-b"></span>
+															<span class="color bg-shade-theme-b"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-c.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-c"></span>
+															<span class="color bg-shade-theme-c"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-d.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-d"></span>
+															<span class="color bg-shade-theme-d"></span>
+														</span>
+														<span class="color bg-menu-white"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="row m-t-20">
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-e.css">
+														<input type="radio" name="setting-theme" checked="checked">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-e"></span>
+															<span class="color bg-shade-theme-e"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-f.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-f"></span>
+															<span class="color bg-shade-theme-f"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-g.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-g"></span>
+															<span class="color bg-shade-theme-g"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-3 p-0">
+												<div class="color-option-check">
+													<label data-load-css="assets/css/theme-h.css">
+														<input type="radio" name="setting-theme">
+														<span class="icon-check"></span>
+														<span class="split">
+															<span class="color bg-primary-theme-h"></span>
+															<span class="color bg-shade-theme-h"></span>
+														</span>
+														<span class="color bg-menu-darkBlue"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<form role="search" action="" class="navbar-form" id="navbar_form">
+					<div class="form-group">
+						<input type="text" placeholder="Search and press enter..." class="form-control" id="navbar_search" autocomplete="off">
+						<i data-navsearch-close class="zmdi zmdi-close close-search"></i>
+					</div>
+					<button type="submit" class="hidden btn btn-default">Submit</button>
+				</form>
+			</nav>
+		</header>
+		<aside id="app_sidebar-left">
+			<nav id="app_main-menu-wrapper" class="scrollbar">
+				<div class="sidebar-inner sidebar-push">
+					<div class="card profile-menu" id="profile-menu">
+						<header class="card-heading card-img alt-heading">
+							<div class="profile">
+								<header class="card-heading card-background" id="card_img_02">
+									<img src="assets/img/profiles/18.jpg" alt="" class="img-circle max-w-75 mCS_img_loaded">
+								</header>
+								<a href="javascript:void(0)" class="info" data-profile="open-menu"><span>admin@CLgas.pe</span></a>
+							</div>
+						</header>
+						<ul class="submenu">
+							<li>
+								<a href="page-profile.html"><i class="zmdi zmdi-account"></i> Perfil</a>
+							</li>
+							
+							<li>
+								<a href="javascript:void(0)"><i class="zmdi zmdi-settings"></i> Opciones</a>
+							</li>
+							<li>
+								<a href="login.html"><i class="zmdi zmdi-sign-in"></i> Sign Out</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="sidebar-header">Menù Principal</li>
+						<li class="active"><a href="index.html"><i class="zmdi zmdi-view-dashboard"></i>Menu Principal</a></li>
+						<li ><a href="Registro_Producto.html"><i class="zmdi zmdi-widgets"></i>Registro de Productos</a></li>
+						
+						<li ><a href="Inventario.html"><i class="zmdi zmdi-view-headline"></i>Inventario</a></li>
+						<li ><a href="Reporte.html"><i class="fas fa-chart-line"></i>Reportes</a></li>
+						
+							
+							<li ><a href="ayuda.html"><i class="zmdi zmdi-info"></i>Ayuda</a></li>
+						</ul>
+					</div>
+				</nav>
+			</aside>
+			<section id="content_outer_wrapper">
+				<div id="content_wrapper">
+					<div id="header_wrapper" class="header-sm">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-12">
+									<header id="header">
+										<h1>Inventario</h1>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="content" class="container-fluid">
+					<div class="content-body">
+					<div class="row">
+					  <div class="col-xs-12">
+						<div class="card card-data-tables product-table-wrapper">
+						  <header class="card-heading">
+							
+							<h2 class="card-title">Inventario de Productos</h2>
+							<small class="dataTables_info">Productos registrados actualmente.</small>
+							
+							<div class="card-search">
+							  <div id="productsTable_wrapper" class="form-group label-floating is-empty">
+								<i class="zmdi zmdi-search search-icon-left"></i>
+								<input type="text" class="form-control filter-input" placeholder="Filter Products..." autocomplete="off">
+								<a href="javascript:void(0)" class="close-search" data-card-search="close" data-toggle="tooltip" data-placement="top" title="Close"><i class="zmdi zmdi-close"></i></a>
+							  </div>
+							</div>
+							<ul class="card-actions icons right-top">
+							  <li id="deleteItems" style="display: none;">
+								<span class="label label-info pull-left m-t-5 m-r-10 text-white"></span>
+								<a href="javascript:void(0)" id="confirmDelete" data-toggle="tooltip" data-placement="top" data-original-title="Delete Product(s)">
+								  <i class="zmdi zmdi-delete"></i>
+								</a>
+							  </li>
+							  <li>
+								<a href="javascript:void(0)" data-card-search="open" data-toggle="tooltip" data-placement="top" data-original-title="Filtro de Productos">
+								  <i class="zmdi zmdi-filter-list"></i>
+								</a>
+							  </li>
+							  <li class="dropdown" data-toggle="tooltip" data-placement="top" data-original-title="Cantidad de Registros">
+								<a href="javascript:void(0)" data-toggle="dropdown">
+								  <i class="zmdi zmdi-more-vert"></i>
+								</a>
+								<div id="dataTablesLength">
+								</div>
+							  </li>
+							  <li>
+								<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" data-original-title="Exportar Todo">
+								  <i class="zmdi zmdi-inbox"></i>
+								</a>
+							  </li>
+							</ul>
+						  </header>
+						  <div class="card-body p-0">
+							<div class="alert alert-info m-20 hidden-md hidden-lg" role="alert">
+							  <p>
+								Heads up! You can Swipe table Left to Right on Mobile devices.
+							  </p>
+							</div>
+							<div class="table-responsive">
+							  <table id="productsTable" class="mdl-data-table product-table m-t-30" cellspacing="0" width="100%">
+								<thead>
+								  <tr>
+									<th data-orderable="false" class="col-xs-1">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="checkAll">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</th>
+									<th data-orderable="false" class="col-xs-2">Imagen</th>
+									<th class="col-xs-2">Nombre del Producto</th>
+									<th class="col-xs-2">Area</th>
+									<th class="col-xs-2">Precio_Compra</th>
+									<th data-orderable="false" class="col-xs-1">Activo</th>
+									<th class="col-xs-1">Stock</th>
+									<th data-orderable="false" class="col-xs-2">
+									  <button class="btn btn-primary btn-fab  animate-fab"><i class="zmdi zmdi-plus"></i></button>
+									</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td class="checkbox-cell">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</td>
+									<td><img src="assets/img/inventario/motor.jpg" alt="" class="img-thumbnail" /></td>
+									<td>Motor</td>
+									<td>Ventas</td>
+									<td>$320</td>
+									<td>
+									  <div class="togglebutton">
+										<label>
+										  <input type="checkbox" class="toggle-info" checked>
+										</label>
+									  </div>
+									</td>
+									<td>200</td>
+									<td><a href="javascript:void(0)" class="edit-product icon"><i class="zmdi zmdi-edit"></i></a></td>
+								  </tr>
+								  
+								  <tr>
+									<td class="checkbox-cell">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</td>
+									<td><img src="assets/img/inventario/compu.jpg" alt="" class="img-thumbnail" /></td>
+									<td>Computadora</td>
+									<td>Sistemas</td>
+									<td>$3200</td>
+									<td>
+									  <div class="togglebutton">
+										<label>
+										  <input type="checkbox" class="toggle-info" checked>
+										</label>
+									  </div>
+									</td>
+									<td>10</td>
+									<td><a href="javascript:void(0)" class="edit-product icon"><i class="zmdi zmdi-edit"></i></a></td>
+								  </tr>
+								  
+								  <tr>
+									<td class="checkbox-cell">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</td>
+									<td><img src="assets/img/inventario/folder.jpg" alt="" class="img-thumbnail" /></td>
+									<td>Folder</td>
+									<td>Administración</td>
+									<td>$0.80</td>
+									<td>
+									  <div class="togglebutton">
+										<label>
+										  <input type="checkbox" class="toggle-info" checked>
+										</label>
+									  </div>
+									</td>
+									<td>200</td>
+									<td><a href="javascript:void(0)" class="edit-product icon"><i class="zmdi zmdi-edit"></i></a></td>
+								  </tr>
+								  
+								  <tr>
+									<td class="checkbox-cell">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</td>
+									<td><img src="assets/img/inventario/aplee.jpg" alt="" class="img-thumbnail" /></td>
+									<td>Laptos Apple</td>
+									<td>Marketing</td>
+									<td>$5200</td>
+									<td>
+									  <div class="togglebutton">
+										<label>
+										  <input type="checkbox" class="toggle-info" checked>
+										</label>
+									  </div>
+									</td>
+									<td>50</td>
+									<td><a href="javascript:void(0)" class="edit-product icon"><i class="zmdi zmdi-edit"></i></a></td>
+								  </tr>
+								  <tr>
+									<td class="checkbox-cell">
+									  <span class="checkbox">
+										<label>
+										  <input type="checkbox" value="" id="">
+										  <span class="checkbox-material"></span>
+										</label>
+									  </span>
+									</td>
+									<td><img src="assets/img/inventario/martillo.jpg" alt="" class="img-thumbnail" /></td>
+									<td>Martillo</td>
+									<td>Operativa</td>
+									<td>$20</td>
+									<td>
+									  <div class="togglebutton">
+										<label>
+										  <input type="checkbox" class="toggle-info" checked>
+										</label>
+									  </div>
+									</td>
+									<td>1200</td>
+									<td><a href="javascript:void(0)" class="edit-product icon"><i class="zmdi zmdi-edit"></i></a></td>
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+				<footer id="footer_wrapper">
+				  <div class="footer-content">
+				      <div class="row copy-wrapper">
+				        <div class="col-xs-12">
+				          <p class="copy">&copy; Copyright <time class="year"></time> CL Gas - All Rights Reserved</p>
+				        </div>
+				      </div>
+				    </div>
+				  </footer>
+			</section>
+		<!-- MODALS =============================================-->
+		
+		<div class="modal fade" id="newContactModal" tabindex="-1" role="dialog" aria-labelledby="newContactModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<ul class="card-actions icons right-top">
+							<li>
+								<a href="javascript:void(0)" class="text-white" data-dismiss="modal" aria-label="Close">
+									<i class="zmdi zmdi-close"></i>
+								</a>
+							</li>
+						</ul>
+						<h4 class="modal-title">New Contact</h4>
+						
+					<div class="modal-body">
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+								<label class="control-label">Full Name</label>
+								<input type="text" class="form-control" id="add_name" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+								<label class="control-label">Email Address</label>
+								<input type="email" class="form-control" id="add_email" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-phone"></i></span>
+								<label class="control-label">Phone Number</label>
+								<input type="text" class="form-control" id="add_phone" value="">
+							</div>
+						</div>
+						<div class="form-group label-floating is-empty">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="zmdi zmdi-pin"></i></span>
+								<label class="control-label">Address</label>
+								<input type="text" class="form-control" id="add_address">
+							</div>
+						</div>
+						<div class="form-group label-floating is-empty">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="mdi mdi-note-text"></i></span>
+								<label for="textArea" class="control-label">Notes</label>
+								<textarea class="form-control" rows="3" id="textArea" id="add_notes"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default btn-flat pull-left">Delete</button>
+						<button class="btn btn-primary btn-flat" data-dismiss="modal" aria-label="Close">Cancel</button>
+						<button class="btn btn-primary">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MODALS =============================================-->
+		<script src="assets/js/vendor.bundle.js"></script>
+		<script src="assets/js/app.bundle.js"></script>
+	</body>
+	
+	</html>
